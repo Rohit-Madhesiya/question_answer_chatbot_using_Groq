@@ -30,7 +30,7 @@ st.title("Q&A Chatbot with Groq Models")
 
 # sidebar
 st.sidebar.title("Settings")
-api_key=st.sidebar.text_input("Enter OpenAI API Key:",type="password")
+api_key=st.sidebar.text_input("Enter Groq API Key:",type="password")
 
 # drop down for model selection
 llm=st.sidebar.selectbox("Select a Groq Model",['deepseek-r1-distill-llama-70b','gemma2-9b-it','llama3-8b-8192','mixtral-8x7b-32768','whisper-large-v3-turbo'])
