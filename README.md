@@ -31,7 +31,7 @@ To run the chatbot locally, follow these steps:
 
   ```bash
   streamlit run app.py
-
+  ```
 This will launch the chatbot interface in your default web browser.
 
 **Acknowledgments**
@@ -40,6 +40,5 @@ This will launch the chatbot interface in your default web browser.
 * Streamlit for the web application framework.
 
 
-```
 **Author 👨‍💻
 Developed by [Rohit Gupta]**
